@@ -1,8 +1,8 @@
-title: masons.codes
-description: > # this means to ignore newlines until "baseurl:"
-  a website of what i do
-baseurl: "/Path-Finding-Algorithm-Visualizer" # the subpath of your site, e.g. /blog
-url: "masonhorne.github.io" # the base hostname & protocol for your site
+title: Path-Visualizer
+description: >
+  An interactive path algorithm visualizer.
+baseurl: "/Path-Finding-Algorithm-Visualizer"
+url: "masonhorne.github.io"
 permalink: "/:title/"
 
 author: Mason Horne
