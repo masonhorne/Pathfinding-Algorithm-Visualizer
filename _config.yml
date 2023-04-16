@@ -10,4 +10,11 @@ author: Mason Horne
 include:
   - src
 
-exclude: [Gemfile, Gemfile.lock, docker-compose.yml]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
