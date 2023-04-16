@@ -1,0 +1,11 @@
+version: "1"
+services:
+  jekyll:
+    build: .
+    image: jekyll/jekyll:pages
+    container_name: path-visualizer
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+    command: jekyll serve --host 0.0.0.0 --drafts --config _config.yml,_config_dev.yml
